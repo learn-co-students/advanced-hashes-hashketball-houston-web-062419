@@ -1,33 +1,30 @@
 def game_hash
   {
-    :home => {
-      :team_name => "Team Name", 
+    :home => {:team_name => "Team Name", 
       :colors => ["Color1", "Color2"],
-      :players => [{
-        :number => "",
+      :players => [
+        {:number => "",
         :shoe => "",
         :points => "",
         :rebounds => "",
         :assists => "",
         :steals => "",
         :blocks => "",
-        :slam_dunks => ""
-      }]
-    }
-    :away => {
-      :team_name => "Team Name", 
+        :slam_dunks => ""}
+      ]},
+    :away => {:team_name => "Team Name", 
       :colors => ["Color1", "Color2"],
-      :players => [{
-        :number => "",
+      :players => [
+        {:number => "",
         :shoe => "",
         :points => "",
         :rebounds => "",
         :assists => "",
         :steals => "",
         :blocks => "",
-        :slam_dunks => ""
-      }]
-    }
+        :slam_dunks => ""}
+        ]}
+  }
     
 end 
     
